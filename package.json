@@ -2,10 +2,12 @@
   "name": "expressive",
   "version": "1.0.0",
   "description": "Basic Crash Course for Express JS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "test": "jest",
     "start": "node app",
-    "dev": "nodemon app"
+    "dev": "nodemon app",
+    "aws-eb:prod": "npm run build && npm run start:prod"
   },
   "author": "Rohin Vaidya",
   "license": "ISC",
